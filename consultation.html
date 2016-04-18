@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- html consultation page for final project Khang Quach 2016-->
+<html lang="en">
+<head>
+<title>Queen Properties-Services</title>
+<meta charset="utf-8">
+<meta name = "viewport" content="width = device-width, initial-scale= 1.0">
+<link href="template.css" rel="stylesheet">
+</head>
+<body>
+<!--centering of page-->
+<div id="wrapper">
+<!--Begin the above the fold logo-->
+<header>
+<img src="queenlogo.jpg" height="130" width="800" alt="Queen Properties Logo">
+</header>
+
+<!--Begin Navigation-->
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li> 
+<li><a href="services.html">Services</a></li>
+<li><a href="models.html">Models</a></li>
+<li><a href="consultation.html">Consultation</a></li>
+</ul>
+</nav>
+<!--Main element start-->
+<main>
+<h2>Make An Appointment With One Of Our Agents</h2>
+<img class = "floatright" src="availability.jpg" height="159" width="240" alt="availability clock"> 
+<h3>Contact Us</h3>
+<p>Required information are marked with an asterisk (*).</p>
+<!-- start of form -->
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+	<fieldset>
+	<legend>Customer Information</legend>
+	<label for="myFName">*First Name:</label>
+	<input type="text" name="myFName" id="myFName" placeholder="First Name" required="required">
+	<label for="myLName">*Last Name:</label>
+	<input type="text" name="myLName" id="myLName" placeholder="Last Name" required="required">
+	<label for="myEmail">*E-mail:</label>
+	<input type="email" name="myEmail" id="myEmail" placeholder="yourName@domain.com" required="required">
+	<label for="myPhone">Phone:</label>
+	<input type="tel" name="myPhone" id="myPhone" placeholder="800-555-5555">
+	<label for="myComments">*Comments:</label>
+	<textarea name="myComments" id="myComments" rows="5" cols="55" required="required"
+	placeholder="A little overview of what you are looking for in your appointment."></textarea>	
+	</fieldset>
+	<input id="mySubmit" type="submit" value="Submit">
+	<h4>You Can Also Call Us At
+	<span id="desktop">888-555-5555</span>
+	<a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+	</h4>
+	</form>
+</main>
+
+<!--photo credit & copyright and email -->
+<footer>
+	|&nbsp;
+	<a href=https://www.flickr.com/photos/dseneste/5807996599/>Soren Storm Hansen</a> Flickr
+	&nbsp;|&nbsp;
+	<br><br>
+	Copyright &copy; 2016 Queen Properties <br><br>
+	<a href="mailto:queenproperties@gmail.com">queenproperties@gmail.com></a>
+</footer>
+</div>
+<!--End centering-->
+</body>
+</html>
